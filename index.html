@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms for single electron system</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+        <img src="hh.jpg" alt="" height="50px" width="50px">
+    </div>
+    <h3>This form is to provide you your heart's desire</h3>
+    <form action="backend.php"></form>
+    <div> 
+        Name: <input type="text" name="myName">
+</div>
+<div>
+    <label for="level">Desp level</label>
+    <select name="mylevel" id="level">
+      <option value="roo">Rookie</option>
+      <option value="jac" selected>Like Jack</option>
+    </select>
+  </div>
+<div>
+    Email: <input type="email" name="myEmail">
+</div>
+
+<div>
+    Amount you are ready to sacrifice<input type="number" name="myBonus">
+</div>
+<div>
+    Are you eligible?: <input type="checkbox" name="myEligibilty">
+</div>
+<div>
+    Gender:Male <input type="radio" name="myGender">
+    Female <input type="radio" name="myGender">
+    Other <input type="radio" name="myGender">
+</div>
+
+
+<div> 
+    Why do you want a relationship? <br> <textarea name="myText" id="" cols="50" rows="10"></textarea>
+</div>
+<div >
+    <input type="submit" value="Submit Now" />
+</div>
+</body>
+</html>
